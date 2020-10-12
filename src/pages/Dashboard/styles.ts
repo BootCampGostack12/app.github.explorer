@@ -34,6 +34,7 @@ export const Form = styled.form`
     border-radius: 0 5px 5px 0;
     color: #fff;
     font-weight: bold;
+    cursor: pointer;
     transition: background-color 0.3s;
     &:hover {
       background: ${shade(0.1, '#04d361')};
@@ -72,6 +73,7 @@ export const Repositories = styled.div`
     }
     div {
       margin-left: 16px;
+      flex: 1;
       strong {
         font-size: 20px;
         color: #3d3d4d;
@@ -88,4 +90,10 @@ export const Repositories = styled.div`
       color: #cbcbd6;
     }
   }
+`;
+
+export const Error = styled.div`
+  display: block;
+  color: #c53030;
+  margin-top: 8px;
 `;
